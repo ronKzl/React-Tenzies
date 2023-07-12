@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main{
+  margin: 0;
+}
+
+.cube{
+  
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.header{
+  top: 0;
+  
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+.btn-div{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 3%;
+}
+
+.btn{
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px red;
+  transform: translate3d(0,0,0); /* prevents artifact glitches in chrome */
+}
+
+.btn:active{
+  background-color: red;
+  border: none;
+  box-shadow: none;
+}
+.btn:focus{
+  outline:0;
+}
+.cube:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px white;
+  transform: translate3d(0,0,0); /* prevents artifact glitches in chrome */
+}
+.cube:active{
+  border: none;
+  box-shadow: none;
+}
+
+.diceHolder{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 0.75fr 0.75fr 0.75fr 0.75fr 0.25fr;
+  background-color: black;
+  padding: 45px;
+  border-radius: 25px;
+}
